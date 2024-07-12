@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    background: olive;
+    color: white;
+   
+}
+form {
+    min-width: 300px;
+    max-width: 500px;
+    margin:0 auto;
+}
+
+h1, p {
+    text-align: center;
+}
+input, section, textarea {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+}
+fieldset {
+    padding: 30px;
+}
+
+#title {
+    font-family: serif;
+    font-size: 3em;
+}
+
+#description {
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

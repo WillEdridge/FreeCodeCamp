@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quiz</title>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="navigation">
+        <span><img></span>
+        <span>
+            <h1>HTML/CSS</h1>
+        </span>
+        <span>
+            <nav>
+                <ul>
+                    <li><a>INFO</a></li>
+                    <li><a>HTML</a></li>
+                    <li><a>CSS</a></li>
+                </ul>
+            </nav>
+        </span>
+    </div>
+    <form>
+        <fieldset>
+            <h2>Student Info</h2>
+            <div class="divider"></div>
+            <label for="name">Name: <input id="name" name="name" type="text" required /></label>
+            <label for="email">Email: <input id="email" name="email" type="email" required /></label>
+            <label for="birthday">Date of Birth: <input type="date" required /></label>
+        </fieldset>
+        <fieldset>
+            <h2>HTML</h2>
+            <div class="divider"></div>
+            <h3>1</h3>
+            <p>The legend elemnts represents a caption for the content of its parent fieldset element:</p>
+            <label for="answer-one">True<input type="radio" id="answer-one" name="answer-one" /></label>
+            <label for="answer-two">False<input type="radio" id="answer-two" name="answer-two" /></label>
+            <h3>2</h3>
+            <p>A label element nesting an input is required to have an attribute with the same value as it's input's id:
+            </p>
+            <label>True<input type="radio" /></label>
+            <label>False<input type="radio" /></label>
+        </fieldset>
+        <fieldset>
+            <h2>CSS</h2>
+            <div class="divider"></div>
+            <label>Can the CSS margin property accept negative values?
+                <select>
+                    <option>Selection an option</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+            </label>
+            <label>Do you have any questions:
+                <textarea>
+                </textarea>
+            </label>
+            <input type="submit" />
+        </fieldset>
+
+    </form>
+    <footer>
+        <p><a>freeCodeCamp</a></p>
+        <p>San Francisco</p>
+        <p>California</p>
+        <p>USA</p>
+    </footer>
+</body>
+
+</html>

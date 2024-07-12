@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.navigation {
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+nav {
+    display: inline;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+.divider {
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+input {
+    display: block;
+}
